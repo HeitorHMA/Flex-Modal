@@ -8,12 +8,12 @@ body{
     background-color: gray;
 }
 .popup{
-    flex: 1,1,auto;
+    
     display: flex;
-    margin-top: 300px;
+   /* margin-top: 300px;
     margin-bottom: 300px;
     margin-left: 200px;
-    margin-right: 200px;
+    margin-right: 200px;*/
     background-color:white;
     justify-content: space-between;
     gap: 10px;
@@ -22,6 +22,7 @@ body{
     padding:5px ;
     }
 .alertarea{
+    flex: 1,1,auto;
     margin-left: 10px;
 }
 .alerticon{
@@ -37,20 +38,24 @@ body{
     line-height: 30px;
 }
 .textarea{
+    flex: 1,1,auto;
     display: flex;
     flex-direction:column;
     gap: 10px;
 }
 .text{
+    flex: 1,1,auto;
     display: flex;
     justify-content:space-between;
     align-items: center;
 }
 .title{
+    flex: 1,1,auto;
     font-size: large;
     font-weight: 700;
 }
 .xicon{
+    flex: 1,1,auto;
     margin-right:10px;
     line-height: 20px;
     background-color: #eeeeee;
@@ -62,6 +67,7 @@ body{
     color: gray;
 }
 .continue{
+    flex: 1,1,auto;
     border: none;
     padding-top: 8px ;
     padding-bottom: 8px;
@@ -73,6 +79,7 @@ body{
     color: white;
 }
 .cancel{
+    flex: 1,1,auto;
     border: none;
     padding-top: 8px ;
     padding-bottom: 8px;
